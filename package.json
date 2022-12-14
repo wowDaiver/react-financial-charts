@@ -83,17 +83,17 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
-    "@truthifi/react-financial-charts-annotations": "file:packages/annotations",
-    "@truthifi/react-financial-charts-axes": "file:packages/axes",
-    "@truthifi/react-financial-charts-coordinates": "file:packages/coordinates",
-    "@truthifi/react-financial-charts-core": "file:packages/core",
-    "@truthifi/react-financial-charts-indicators": "file:packages/indicators",
-    "@truthifi/react-financial-charts-interactive": "file:packages/interactive",
-    "@truthifi/react-financial-charts-scales": "file:packages/scales",
-    "@truthifi/react-financial-charts-series": "file:packages/series",
-    "@truthifi/react-financial-charts-stories": "file:packages/stories",
-    "@truthifi/react-financial-charts-tooltip": "file:packages/tooltip",
-    "@truthifi/react-financial-charts-utils": "file:packages/utils",
+    "@wowdaiver/react-financial-charts-annotations": "file:packages/annotations",
+    "@wowdaiver/react-financial-charts-axes": "file:packages/axes",
+    "@wowdaiver/react-financial-charts-coordinates": "file:packages/coordinates",
+    "@wowdaiver/react-financial-charts-core": "file:packages/core",
+    "@wowdaiver/react-financial-charts-indicators": "file:packages/indicators",
+    "@wowdaiver/react-financial-charts-interactive": "file:packages/interactive",
+    "@wowdaiver/react-financial-charts-scales": "file:packages/scales",
+    "@wowdaiver/react-financial-charts-series": "file:packages/series",
+    "@wowdaiver/react-financial-charts-stories": "file:packages/stories",
+    "@wowdaiver/react-financial-charts-tooltip": "file:packages/tooltip",
+    "@wowdaiver/react-financial-charts-utils": "file:packages/utils",
     "react-financial-charts": "file:packages/charts"
   }
 }

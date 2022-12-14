@@ -1,5 +1,5 @@
 {
-  "name": "@truthifi/react-financial-charts-annotations",
+  "name": "@wowdaiver/react-financial-charts-annotations",
   "version": "1.4.3",
   "description": "Annotations for react-financial-charts",
   "publishConfig": {
@@ -43,7 +43,7 @@
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@truthifi/react-financial-charts-core": "file:../core",
+    "@wowdaiver/react-financial-charts-core": "file:../core",
     "@types/d3-scale": "^3.2.2",
     "prop-types": "^15.7.2"
   }

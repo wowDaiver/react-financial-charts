@@ -5,7 +5,7 @@ import {
     getMouseCanvas,
     isDefined,
     noop,
-} from "@truthifi/react-financial-charts-core";
+} from "@wowdaiver/react-financial-charts-core";
 import { HoverTextNearMouse } from "./components";
 import { getValueFromOverride, isHoverForInteractiveType, saveNodeType, terminate } from "./utils";
 import { EachText } from "./wrapper";

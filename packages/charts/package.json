@@ -1,5 +1,5 @@
 {
-  "name": "@truthifi/react-financial-charts",
+  "name": "@wowdaiver/react-financial-charts",
   "version": "1.4.3",
   "description": "React charts specific to finance.",
   "publishConfig": {
@@ -38,16 +38,16 @@
     "compile": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@truthifi/react-financial-charts-annotations": "file:../annotations",
-    "@truthifi/react-financial-charts-axes": "file:../axes",
-    "@truthifi/react-financial-charts-coordinates": "file:../coordinates",
-    "@truthifi/react-financial-charts-core": "file:../core",
-    "@truthifi/react-financial-charts-indicators": "file:../indicators",
-    "@truthifi/react-financial-charts-interactive": "file:../interactive",
-    "@truthifi/react-financial-charts-scales": "file:../scales",
-    "@truthifi/react-financial-charts-series": "file:../series",
-    "@truthifi/react-financial-charts-tooltip": "file:../tooltip",
-    "@truthifi/react-financial-charts-utils": "file:../utils"
+    "@wowdaiver/react-financial-charts-annotations": "file:../annotations",
+    "@wowdaiver/react-financial-charts-axes": "file:../axes",
+    "@wowdaiver/react-financial-charts-coordinates": "file:../coordinates",
+    "@wowdaiver/react-financial-charts-core": "file:../core",
+    "@wowdaiver/react-financial-charts-indicators": "file:../indicators",
+    "@wowdaiver/react-financial-charts-interactive": "file:../interactive",
+    "@wowdaiver/react-financial-charts-scales": "file:../scales",
+    "@wowdaiver/react-financial-charts-series": "file:../series",
+    "@wowdaiver/react-financial-charts-tooltip": "file:../tooltip",
+    "@wowdaiver/react-financial-charts-utils": "file:../utils"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",

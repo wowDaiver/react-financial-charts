@@ -1,4 +1,4 @@
-import { functor } from "@truthifi/react-financial-charts-core";
+import { functor } from "@wowdaiver/react-financial-charts-core";
 import * as React from "react";
 
 export interface CircleMarkerProps {

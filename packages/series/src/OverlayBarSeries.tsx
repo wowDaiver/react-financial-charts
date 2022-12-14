@@ -7,7 +7,7 @@ import {
     getAxisCanvas,
     GenericChartComponent,
     plotDataLengthBarWidth,
-} from "@truthifi/react-financial-charts-core";
+} from "@wowdaiver/react-financial-charts-core";
 import { drawOnCanvas2 } from "./StackedBarSeries";
 
 export interface OverlayBarSeriesProps {

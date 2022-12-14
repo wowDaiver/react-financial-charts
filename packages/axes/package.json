@@ -1,5 +1,5 @@
 {
-  "name": "@truthifi/react-financial-charts-axes",
+  "name": "@wowdaiver/react-financial-charts-axes",
   "version": "1.4.3",
   "description": "Axes for react-financial-charts",
   "publishConfig": {
@@ -39,7 +39,7 @@
     "watch": "tsc -p tsconfig.json --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@truthifi/react-financial-charts-core": "file:../core",
+    "@wowdaiver/react-financial-charts-core": "file:../core",
     "@types/d3-scale": "^3.2.2",
     "d3-array": "^2.9.1",
     "d3-force": "^2.1.1",
