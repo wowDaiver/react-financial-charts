@@ -1,6 +1,6 @@
 {
   "name": "@daiver/react-financial-charts",
-  "version": "1.4.3",
+  "version": "1.4.5",
   "description": "React charts specific to finance.",
   "publishConfig": {
     "access": "public"
