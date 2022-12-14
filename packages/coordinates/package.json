@@ -1,6 +1,6 @@
 {
   "name": "@daiver/react-financial-charts-coordinates",
-  "version": "1.4.3",
+  "version": "1.4.5",
   "description": "Coordinates for react-financial-charts",
   "publishConfig": {
     "access": "public"
