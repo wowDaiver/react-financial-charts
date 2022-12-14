@@ -6,9 +6,9 @@ import {
     isDefined,
     noop,
     shallowEqual,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 import * as React from "react";
-import { getXValue } from "@wowdaiver/react-financial-charts-core/lib/utils/ChartDataUtil";
+import { getXValue } from "@daiver/react-financial-charts-core/lib/utils/ChartDataUtil";
 
 export interface MouseLocationIndicatorProps {
     readonly enabled: boolean;

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { atr } from "@wowdaiver/react-financial-charts-indicators";
+import { atr } from "@daiver/react-financial-charts-indicators";
 import ATRIndicator from "./AtrIndicator";
 
 export default {

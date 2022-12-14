@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { getStrokeDasharray, getStrokeDasharrayCanvas, isDefined } from "@wowdaiver/react-financial-charts-core";
+import { getStrokeDasharray, getStrokeDasharrayCanvas, isDefined } from "@daiver/react-financial-charts-core";
 
 export const renderSVG = (props: any) => {
     const { className } = props;

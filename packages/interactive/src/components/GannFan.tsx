@@ -1,7 +1,7 @@
 import { pairs } from "d3-array";
 import * as React from "react";
 import { generateLine, isHovering2 } from "./InteractiveStraightLine";
-import { isDefined, isNotDefined, getMouseCanvas, GenericChartComponent } from "@wowdaiver/react-financial-charts-core";
+import { isDefined, isNotDefined, getMouseCanvas, GenericChartComponent } from "@daiver/react-financial-charts-core";
 
 export interface GannFanProps {
     readonly startXY: number[];

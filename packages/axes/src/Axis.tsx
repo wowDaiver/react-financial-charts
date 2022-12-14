@@ -6,7 +6,7 @@ import {
     getStrokeDasharrayCanvas,
     last,
     strokeDashTypes,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 import { range as d3Range, zip } from "d3-array";
 import { forceCollide, forceSimulation, forceX } from "d3-force";
 import { ScaleContinuousNumeric } from "d3-scale";

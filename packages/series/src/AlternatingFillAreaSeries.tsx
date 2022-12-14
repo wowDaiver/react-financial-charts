@@ -1,4 +1,4 @@
-import { strokeDashTypes } from "@wowdaiver/react-financial-charts-core";
+import { strokeDashTypes } from "@daiver/react-financial-charts-core";
 import { ScaleContinuousNumeric } from "d3-scale";
 import { CurveFactory } from "d3-shape";
 import * as React from "react";

@@ -3,7 +3,7 @@ import {
     getAxisCanvas,
     GenericChartComponent,
     plotDataLengthBarWidth,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 import { group } from "d3-array";
 import { ScaleContinuousNumeric, ScaleTime } from "d3-scale";
 import * as React from "react";

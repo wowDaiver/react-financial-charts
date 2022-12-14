@@ -1,4 +1,4 @@
-import { strokeDashTypes } from "@wowdaiver/react-financial-charts-core";
+import { strokeDashTypes } from "@daiver/react-financial-charts-core";
 import * as React from "react";
 import { OverlayBarSeries } from "./OverlayBarSeries";
 import { StraightLine } from "./StraightLine";

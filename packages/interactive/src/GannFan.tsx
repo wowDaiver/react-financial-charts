@@ -1,5 +1,5 @@
 import * as React from "react";
-import { isDefined, isNotDefined, noop } from "@wowdaiver/react-financial-charts-core";
+import { isDefined, isNotDefined, noop } from "@daiver/react-financial-charts-core";
 import { HoverTextNearMouse, MouseLocationIndicator } from "./components";
 import { isHoverForInteractiveType, saveNodeType, terminate } from "./utils";
 import { EachGannFan } from "./wrapper";

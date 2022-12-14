@@ -1,5 +1,5 @@
 import * as React from "react";
-import { isNotDefined, getMouseCanvas, GenericChartComponent } from "@wowdaiver/react-financial-charts-core";
+import { isNotDefined, getMouseCanvas, GenericChartComponent } from "@daiver/react-financial-charts-core";
 import { drawOnCanvas } from "./EdgeCoordinateV3";
 
 export interface MouseCoordinateXProps {

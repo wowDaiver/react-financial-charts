@@ -9,7 +9,7 @@ import {
     getAxisCanvas,
     GenericChartComponent,
     last,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 
 export interface VolumeProfileSeriesProps {
     readonly absoluteChange: (datum: any) => number;

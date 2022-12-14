@@ -5,7 +5,7 @@ import {
     getMouseCanvas,
     GenericChartComponent,
     last,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 
 export interface SARSeriesProps {
     readonly fillStyle?: {

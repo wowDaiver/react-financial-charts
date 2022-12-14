@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Chart, ChartCanvas } from "@wowdaiver/react-financial-charts-core";
-import { XAxis, YAxis } from "@wowdaiver/react-financial-charts-axes";
-import { discontinuousTimeScaleProviderBuilder } from "@wowdaiver/react-financial-charts-scales";
-import { AlternatingFillAreaSeries, AlternatingFillAreaSeriesProps } from "@wowdaiver/react-financial-charts-series";
+import { Chart, ChartCanvas } from "@daiver/react-financial-charts-core";
+import { XAxis, YAxis } from "@daiver/react-financial-charts-axes";
+import { discontinuousTimeScaleProviderBuilder } from "@daiver/react-financial-charts-scales";
+import { AlternatingFillAreaSeries, AlternatingFillAreaSeriesProps } from "@daiver/react-financial-charts-series";
 import { IOHLCData, withOHLCData } from "../../data";
-import { withDeviceRatio, withSize } from "@wowdaiver/react-financial-charts-utils";
+import { withDeviceRatio, withSize } from "@daiver/react-financial-charts-utils";
 
 interface ChartProps extends Partial<AlternatingFillAreaSeriesProps> {
     readonly data: IOHLCData[];

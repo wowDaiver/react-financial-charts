@@ -1,4 +1,4 @@
-import { slidingWindow, zipper } from "@wowdaiver/react-financial-charts-core";
+import { slidingWindow, zipper } from "@daiver/react-financial-charts-core";
 import { timeFormat, timeFormatDefaultLocale } from "d3-time-format";
 import financeDiscontinuousScale from "./financeDiscontinuousScale";
 import { defaultFormatters, levelDefinition, IFormatters } from "./levels";

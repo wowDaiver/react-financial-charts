@@ -1,4 +1,4 @@
-import { GenericChartComponent, last } from "@wowdaiver/react-financial-charts-core";
+import { GenericChartComponent, last } from "@daiver/react-financial-charts-core";
 import { format } from "d3-format";
 import * as React from "react";
 import { layouts, SingleTooltip } from "./SingleTooltip";

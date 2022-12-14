@@ -1,5 +1,5 @@
 import * as React from "react";
-import { isDefined, isNotDefined, noop, strokeDashTypes } from "@wowdaiver/react-financial-charts-core";
+import { isDefined, isNotDefined, noop, strokeDashTypes } from "@daiver/react-financial-charts-core";
 import { getValueFromOverride, isHoverForInteractiveType, saveNodeType, terminate } from "./utils";
 import { HoverTextNearMouse, MouseLocationIndicator, InteractiveStraightLine } from "./components";
 import { EachTrendLine } from "./wrapper";

@@ -1,5 +1,5 @@
 {
-  "name": "@wowdaiver/react-financial-charts",
+  "name": "@daiver/react-financial-charts",
   "version": "1.4.3",
   "description": "React charts specific to finance.",
   "publishConfig": {
@@ -38,16 +38,16 @@
     "compile": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@wowdaiver/react-financial-charts-annotations": "file:../annotations",
-    "@wowdaiver/react-financial-charts-axes": "file:../axes",
-    "@wowdaiver/react-financial-charts-coordinates": "file:../coordinates",
-    "@wowdaiver/react-financial-charts-core": "file:../core",
-    "@wowdaiver/react-financial-charts-indicators": "file:../indicators",
-    "@wowdaiver/react-financial-charts-interactive": "file:../interactive",
-    "@wowdaiver/react-financial-charts-scales": "file:../scales",
-    "@wowdaiver/react-financial-charts-series": "file:../series",
-    "@wowdaiver/react-financial-charts-tooltip": "file:../tooltip",
-    "@wowdaiver/react-financial-charts-utils": "file:../utils"
+    "@daiver/react-financial-charts-annotations": "file:../annotations",
+    "@daiver/react-financial-charts-axes": "file:../axes",
+    "@daiver/react-financial-charts-coordinates": "file:../coordinates",
+    "@daiver/react-financial-charts-core": "file:../core",
+    "@daiver/react-financial-charts-indicators": "file:../indicators",
+    "@daiver/react-financial-charts-interactive": "file:../interactive",
+    "@daiver/react-financial-charts-scales": "file:../scales",
+    "@daiver/react-financial-charts-series": "file:../series",
+    "@daiver/react-financial-charts-tooltip": "file:../tooltip",
+    "@daiver/react-financial-charts-utils": "file:../utils"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",

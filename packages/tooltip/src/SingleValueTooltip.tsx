@@ -1,4 +1,4 @@
-import { functor, identity, GenericChartComponent, noop, last } from "@wowdaiver/react-financial-charts-core";
+import { functor, identity, GenericChartComponent, noop, last } from "@daiver/react-financial-charts-core";
 import { format } from "d3-format";
 import * as React from "react";
 import { ToolTipText } from "./ToolTipText";

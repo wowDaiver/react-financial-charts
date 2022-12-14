@@ -31,7 +31,7 @@
     "test": "lerna run test --stream",
     "prestart": "npm run build",
     "prepublishOnly": "npm run build",
-    "publish": "lerna publish from-package --yes",
+    "publish2": "lerna publish from-package --yes",
     "release": "lerna version --yes",
     "release:pre": "lerna version --conventional-prerelease --yes",
     "release:grad": "lerna version --conventional-graduate --yes",
@@ -83,17 +83,17 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
-    "@wowdaiver/react-financial-charts-annotations": "file:packages/annotations",
-    "@wowdaiver/react-financial-charts-axes": "file:packages/axes",
-    "@wowdaiver/react-financial-charts-coordinates": "file:packages/coordinates",
-    "@wowdaiver/react-financial-charts-core": "file:packages/core",
-    "@wowdaiver/react-financial-charts-indicators": "file:packages/indicators",
-    "@wowdaiver/react-financial-charts-interactive": "file:packages/interactive",
-    "@wowdaiver/react-financial-charts-scales": "file:packages/scales",
-    "@wowdaiver/react-financial-charts-series": "file:packages/series",
-    "@wowdaiver/react-financial-charts-stories": "file:packages/stories",
-    "@wowdaiver/react-financial-charts-tooltip": "file:packages/tooltip",
-    "@wowdaiver/react-financial-charts-utils": "file:packages/utils",
+    "@daiver/react-financial-charts-annotations": "file:packages/annotations",
+    "@daiver/react-financial-charts-axes": "file:packages/axes",
+    "@daiver/react-financial-charts-coordinates": "file:packages/coordinates",
+    "@daiver/react-financial-charts-core": "file:packages/core",
+    "@daiver/react-financial-charts-indicators": "file:packages/indicators",
+    "@daiver/react-financial-charts-interactive": "file:packages/interactive",
+    "@daiver/react-financial-charts-scales": "file:packages/scales",
+    "@daiver/react-financial-charts-series": "file:packages/series",
+    "@daiver/react-financial-charts-stories": "file:packages/stories",
+    "@daiver/react-financial-charts-tooltip": "file:packages/tooltip",
+    "@daiver/react-financial-charts-utils": "file:packages/utils",
     "react-financial-charts": "file:packages/charts"
   }
 }

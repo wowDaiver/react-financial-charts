@@ -6,7 +6,7 @@ import {
     getStrokeDasharrayCanvas,
     last,
     strokeDashTypes,
-} from "@wowdaiver/react-financial-charts-core";
+} from "@daiver/react-financial-charts-core";
 import * as React from "react";
 
 export interface CursorProps {

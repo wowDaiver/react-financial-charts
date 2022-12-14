@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ChartCanvasContext } from "@wowdaiver/react-financial-charts-core";
+import { ChartCanvasContext } from "@daiver/react-financial-charts-core";
 
 export interface AlternateDataSeriesProps<TData> {
     readonly data: TData[];

@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Chart, ChartCanvas } from "@wowdaiver/react-financial-charts-core";
-import { XAxis, YAxis } from "@wowdaiver/react-financial-charts-axes";
-import { macd } from "@wowdaiver/react-financial-charts-indicators";
-import { discontinuousTimeScaleProviderBuilder } from "@wowdaiver/react-financial-charts-scales";
-import { MACDSeries } from "@wowdaiver/react-financial-charts-series";
-import { MACDTooltip } from "@wowdaiver/react-financial-charts-tooltip";
+import { Chart, ChartCanvas } from "@daiver/react-financial-charts-core";
+import { XAxis, YAxis } from "@daiver/react-financial-charts-axes";
+import { macd } from "@daiver/react-financial-charts-indicators";
+import { discontinuousTimeScaleProviderBuilder } from "@daiver/react-financial-charts-scales";
+import { MACDSeries } from "@daiver/react-financial-charts-series";
+import { MACDTooltip } from "@daiver/react-financial-charts-tooltip";
 import { IOHLCData, withOHLCData } from "../../data";
-import { withDeviceRatio, withSize } from "@wowdaiver/react-financial-charts-utils";
+import { withDeviceRatio, withSize } from "@daiver/react-financial-charts-utils";
 
 interface ChartProps {
     readonly data: IOHLCData[];
