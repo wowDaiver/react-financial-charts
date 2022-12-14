@@ -482,20 +482,15 @@ export class EventCapture extends React.Component<EventCaptureProps, EventCaptur
 
             const { panStartXScale, panOrigin, chartsToPan } = this.state.panStart;
 
-            let dx;
-            let dy;
             let mouseXY;
             if (this.mouseInteraction) {
                 mouseXY = pointer(e, this.ref.current);
-                this.lastNewPos = mouseXY;
-                dx = mouseXY[0] - panOrigin[0];
-                dy = mouseXY[1] - panOrigin[1];
             } else {
                 mouseXY = pointers(e, this.ref.current)[0];
-                this.lastNewPos = mouseXY;
-                dx = panOrigin[0] - mouseXY[0];
-                dy = panOrigin[1] - mouseXY[1];
             }
+            this.lastNewPos = mouseXY;
+            const dx = mouseXY[0] - panOrigin[0];
+            const dy = mouseXY[1] - panOrigin[1];
 
             this.dx = dx;
             this.dy = dy;
