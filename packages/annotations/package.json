@@ -43,9 +43,8 @@
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@daiver/react-financial-charts-core": "^1.4.3",
+    "@daiver/react-financial-charts-core": "file:../core",
     "@types/d3-scale": "^3.2.2",
     "prop-types": "^15.7.2"
-  },
-  "gitHead": "baa4b18ae90f96411b633809efcc075f535d7adf"
+  }
 }
