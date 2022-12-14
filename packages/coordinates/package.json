@@ -39,12 +39,13 @@
     "watch": "tsc -p tsconfig.json --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@daiver/react-financial-charts-core": "file:../core",
+    "@daiver/react-financial-charts-core": "^1.4.3",
     "d3-format": "^2.0.0",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
-  }
+  },
+  "gitHead": "baa4b18ae90f96411b633809efcc075f535d7adf"
 }

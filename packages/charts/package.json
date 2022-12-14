@@ -38,19 +38,20 @@
     "compile": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@daiver/react-financial-charts-annotations": "file:../annotations",
-    "@daiver/react-financial-charts-axes": "file:../axes",
-    "@daiver/react-financial-charts-coordinates": "file:../coordinates",
-    "@daiver/react-financial-charts-core": "file:../core",
-    "@daiver/react-financial-charts-indicators": "file:../indicators",
-    "@daiver/react-financial-charts-interactive": "file:../interactive",
-    "@daiver/react-financial-charts-scales": "file:../scales",
-    "@daiver/react-financial-charts-series": "file:../series",
-    "@daiver/react-financial-charts-tooltip": "file:../tooltip",
-    "@daiver/react-financial-charts-utils": "file:../utils"
+    "@daiver/react-financial-charts-annotations": "^1.4.3",
+    "@daiver/react-financial-charts-axes": "^1.4.3",
+    "@daiver/react-financial-charts-coordinates": "^1.4.3",
+    "@daiver/react-financial-charts-core": "^1.4.3",
+    "@daiver/react-financial-charts-indicators": "^1.4.1",
+    "@daiver/react-financial-charts-interactive": "^1.4.3",
+    "@daiver/react-financial-charts-scales": "^1.4.3",
+    "@daiver/react-financial-charts-series": "^1.4.3",
+    "@daiver/react-financial-charts-tooltip": "^1.4.3",
+    "@daiver/react-financial-charts-utils": "^1.4.1"
   },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
-  }
+  },
+  "gitHead": "baa4b18ae90f96411b633809efcc075f535d7adf"
 }

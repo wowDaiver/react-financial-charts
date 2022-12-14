@@ -1,6 +1,6 @@
 {
   "name": "@daiver/react-financial-charts-utils",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "description": "Utils for react-financial-charts",
   "publishConfig": {
     "access": "public"
@@ -45,5 +45,6 @@
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
-  }
+  },
+  "gitHead": "baa4b18ae90f96411b633809efcc075f535d7adf"
 }
