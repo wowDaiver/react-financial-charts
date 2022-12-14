@@ -1,6 +1,6 @@
 {
   "name": "@daiver/react-financial-charts",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "React charts specific to finance.",
   "publishConfig": {
     "access": "public"
@@ -41,7 +41,7 @@
     "@daiver/react-financial-charts-annotations": "^1.4.3",
     "@daiver/react-financial-charts-axes": "^1.4.3",
     "@daiver/react-financial-charts-coordinates": "^1.4.3",
-    "@daiver/react-financial-charts-core": "^1.4.3",
+    "@daiver/react-financial-charts-core": "^1.4.4",
     "@daiver/react-financial-charts-indicators": "^1.4.1",
     "@daiver/react-financial-charts-interactive": "^1.4.3",
     "@daiver/react-financial-charts-scales": "^1.4.3",
